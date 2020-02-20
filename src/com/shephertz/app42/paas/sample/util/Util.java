@@ -12,7 +12,7 @@ public class Util {
 	static File dbFile = null;
 	static {
 		try {
-			dbFile = new File("webapps/App-Info/Config.properties");
+			dbFile = new File("webapps/App-Info-release/Config.properties");
 			dbProps.load(new FileInputStream(dbFile.getAbsolutePath()));
 		} catch (FileNotFoundException e) {
 			throw new RuntimeException(e);
