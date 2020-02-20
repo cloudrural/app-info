@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>App-Info</groupId>
   <artifactId>App-Info</artifactId>
-  <version></version>
+  <version>release</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
