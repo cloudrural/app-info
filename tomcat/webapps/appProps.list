@@ -1,0 +1,6 @@
+# display_help,installer_variable,env_variable,default_value,description
+1,APP_DB_HOST,DB_HOST,localhost,Database hostname.
+1,APP_DB_USER,DB_USER,root,Database ABPP username.
+1,APP_DB_PWD,DB_PWD,Sharath10@,Database  password.
+1,APP_DB_NAME,DB_NAME,sample,Database name.
+1,APP_DB_PORT,DB_PORT,1521,Database port number.
