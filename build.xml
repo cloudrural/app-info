@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project name="App-Info" default="main" basedir=".">
+    <!-- Sets variables which can later be used. -->
+    <!-- The value of a property is accessed via ${} -->
+    <property name="install.dir" location="tomcat" />
+    <property name="build.dir" location="target" />
+    <property name="artifact.dir" location="install" />
+
+    <!-- Deletes the existing build, docs and dist directory-->
+    <target name="clean">
+        <delete dir="${artifact.dir}" />
+    </target>
+
+    <!-- Creates the artifact dir directory-->
+    <target name="makedir">
+        <mkdir dir="${artifact.dir}" />
+    </target>
+
+    <target name="copy-artifacts" depends="makedir">
+        <description>Copying the artifacts </description>
+        <copy todir="${artifact.dir}">
+            <fileset dir="${install.dir}">
+              <include name="**" />
+            </fileset>
+        </copy>
+       <copy todir="${artifact.dir}/webapps">
+            <fileset dir="${build.dir}">
+              <include name="App-Info-release/**" />
+            </fileset>
+        </copy>
+
+    </target>
+
+    <!-- Deletes the existing build, docs and dist directory-->
+    <target name="all-clean">
+        <delete dir="${build.dir}" />
+    </target>
+
+</project>
