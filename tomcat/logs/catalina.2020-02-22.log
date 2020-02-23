@@ -1,0 +1,396 @@
+22-Feb-2020 07:51:00.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+22-Feb-2020 07:51:00.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+22-Feb-2020 07:51:00.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+22-Feb-2020 07:51:00.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2020 07:51:00.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+22-Feb-2020 07:51:00.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2020 07:51:00.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home
+22-Feb-2020 07:51:00.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10-LTS
+22-Feb-2020 07:51:00.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2020 07:51:00.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 07:51:00.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 07:51:00.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 07:51:00.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 07:51:00.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 07:51:00.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/..//conf/logging.properties
+22-Feb-2020 07:51:00.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 07:51:00.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 07:51:00.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 07:51:00.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 07:51:00.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 07:51:00.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 07:51:00.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 07:51:00.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/..//temp
+22-Feb-2020 07:51:00.135 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bharathpantala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2020 07:51:00.501 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 07:51:00.559 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [752] milliseconds
+22-Feb-2020 07:51:00.645 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 07:51:00.646 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+22-Feb-2020 07:51:00.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs]
+22-Feb-2020 07:51:00.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs] has finished in [258] ms
+22-Feb-2020 07:51:00.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps]
+22-Feb-2020 07:51:00.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps] has finished in [36] ms
+22-Feb-2020 07:51:00.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager]
+22-Feb-2020 07:51:01.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager] has finished in [55] ms
+22-Feb-2020 07:51:01.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 07:51:01.908 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 07:51:01.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [906] ms
+22-Feb-2020 07:51:01.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples]
+22-Feb-2020 07:51:02.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples] has finished in [232] ms
+22-Feb-2020 07:51:02.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT]
+22-Feb-2020 07:51:02.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT] has finished in [16] ms
+22-Feb-2020 07:51:02.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager]
+22-Feb-2020 07:51:02.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager] has finished in [18] ms
+22-Feb-2020 07:51:02.188 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 07:51:02.206 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,645] milliseconds
+22-Feb-2020 07:58:24.028 INFO [http-nio-8080-exec-2] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+22-Feb-2020 08:00:43.246 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/App-Info-release]
+22-Feb-2020 08:00:43.274 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [App-Info-release] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Feb-2020 08:01:03.300 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 08:01:04.042 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 08:01:04.045 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [745] ms
+22-Feb-2020 08:01:35.562 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Feb-2020 08:01:35.563 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:01:35.573 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 08:01:35.614 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:01:35.627 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:01:47.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+22-Feb-2020 08:01:47.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+22-Feb-2020 08:01:47.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+22-Feb-2020 08:01:47.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2020 08:01:47.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+22-Feb-2020 08:01:47.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2020 08:01:47.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home
+22-Feb-2020 08:01:47.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10-LTS
+22-Feb-2020 08:01:47.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2020 08:01:47.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:01:47.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:01:47.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 08:01:47.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 08:01:47.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 08:01:47.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/..//conf/logging.properties
+22-Feb-2020 08:01:47.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 08:01:47.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 08:01:47.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 08:01:47.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 08:01:47.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 08:01:47.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:01:47.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:01:47.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/..//temp
+22-Feb-2020 08:01:47.421 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bharathpantala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2020 08:01:47.709 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:01:47.741 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [545] milliseconds
+22-Feb-2020 08:01:47.800 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 08:01:47.800 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+22-Feb-2020 08:01:47.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs]
+22-Feb-2020 08:01:48.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs] has finished in [249] ms
+22-Feb-2020 08:01:48.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps]
+22-Feb-2020 08:01:48.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps] has finished in [47] ms
+22-Feb-2020 08:01:48.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager]
+22-Feb-2020 08:01:48.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager] has finished in [55] ms
+22-Feb-2020 08:01:48.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 08:01:48.749 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 08:01:48.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [589] ms
+22-Feb-2020 08:01:48.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples]
+22-Feb-2020 08:01:48.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples] has finished in [202] ms
+22-Feb-2020 08:01:48.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT]
+22-Feb-2020 08:01:48.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT] has finished in [16] ms
+22-Feb-2020 08:01:48.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager]
+22-Feb-2020 08:01:48.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager] has finished in [19] ms
+22-Feb-2020 08:01:48.995 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:01:49.008 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,266] milliseconds
+22-Feb-2020 08:04:21.360 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:04:21.373 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 08:04:21.429 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:04:21.432 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:04:31.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+22-Feb-2020 08:04:31.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+22-Feb-2020 08:04:31.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+22-Feb-2020 08:04:31.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2020 08:04:31.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+22-Feb-2020 08:04:31.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2020 08:04:31.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home
+22-Feb-2020 08:04:31.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10-LTS
+22-Feb-2020 08:04:31.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2020 08:04:31.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:04:31.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:04:31.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 08:04:31.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/..//conf/logging.properties
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:04:31.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:04:31.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/..//temp
+22-Feb-2020 08:04:31.109 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bharathpantala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2020 08:04:31.397 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:04:31.424 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [540] milliseconds
+22-Feb-2020 08:04:31.485 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 08:04:31.486 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+22-Feb-2020 08:04:31.494 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs]
+22-Feb-2020 08:04:31.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs] has finished in [247] ms
+22-Feb-2020 08:04:31.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps]
+22-Feb-2020 08:04:31.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps] has finished in [37] ms
+22-Feb-2020 08:04:31.780 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager]
+22-Feb-2020 08:04:31.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager] has finished in [40] ms
+22-Feb-2020 08:04:31.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 08:04:32.459 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 08:04:32.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [641] ms
+22-Feb-2020 08:04:32.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples]
+22-Feb-2020 08:04:32.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples] has finished in [211] ms
+22-Feb-2020 08:04:32.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT]
+22-Feb-2020 08:04:32.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT] has finished in [18] ms
+22-Feb-2020 08:04:32.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager]
+22-Feb-2020 08:04:32.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager] has finished in [16] ms
+22-Feb-2020 08:04:32.717 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:04:32.725 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,300] milliseconds
+22-Feb-2020 08:05:08.657 INFO [http-nio-8080-exec-5] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+22-Feb-2020 08:07:31.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+22-Feb-2020 08:07:31.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+22-Feb-2020 08:07:31.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+22-Feb-2020 08:07:31.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2020 08:07:31.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+22-Feb-2020 08:07:31.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2020 08:07:31.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home
+22-Feb-2020 08:07:31.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10-LTS
+22-Feb-2020 08:07:31.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2020 08:07:31.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:07:31.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:07:31.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 08:07:31.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 08:07:31.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 08:07:31.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bharathpantala/Desktop/DevOps/tomcat/conf/logging.properties
+22-Feb-2020 08:07:31.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 08:07:31.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 08:07:31.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 08:07:31.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 08:07:31.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 08:07:31.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:07:31.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:07:31.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bharathpantala/Desktop/DevOps/tomcat/temp
+22-Feb-2020 08:07:31.994 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bharathpantala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2020 08:07:32.279 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:07:32.312 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [525] milliseconds
+22-Feb-2020 08:07:32.364 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 08:07:32.364 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+22-Feb-2020 08:07:32.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs]
+22-Feb-2020 08:07:32.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs] has finished in [235] ms
+22-Feb-2020 08:07:32.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps]
+22-Feb-2020 08:07:32.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps] has finished in [46] ms
+22-Feb-2020 08:07:32.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager]
+22-Feb-2020 08:07:32.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager] has finished in [43] ms
+22-Feb-2020 08:07:32.702 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 08:07:33.254 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 08:07:33.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [554] ms
+22-Feb-2020 08:07:33.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples]
+22-Feb-2020 08:07:33.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples] has finished in [195] ms
+22-Feb-2020 08:07:33.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT]
+22-Feb-2020 08:07:33.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT] has finished in [16] ms
+22-Feb-2020 08:07:33.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager]
+22-Feb-2020 08:07:33.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager] has finished in [18] ms
+22-Feb-2020 08:07:33.491 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:07:33.498 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,185] milliseconds
+22-Feb-2020 08:07:51.634 INFO [http-nio-8080-exec-2] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+22-Feb-2020 08:11:04.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+22-Feb-2020 08:11:04.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10-LTS
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:11:04.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:11:04.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 08:11:04.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 08:11:04.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 08:11:04.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bharathpantala/Desktop/DevOps/tomcat/conf/logging.properties
+22-Feb-2020 08:11:04.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bharathpantala/Desktop/DevOps/tomcat/temp
+22-Feb-2020 08:11:04.600 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bharathpantala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2020 08:11:04.898 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:11:04.917 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:461)
+		at java.base/sun.nio.ch.Net.bind(Net.java:453)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:229)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:212)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1010)
+		... 13 more
+22-Feb-2020 08:11:04.918 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [542] milliseconds
+22-Feb-2020 08:11:04.969 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 08:11:04.969 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+22-Feb-2020 08:11:04.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs]
+22-Feb-2020 08:11:05.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs] has finished in [251] ms
+22-Feb-2020 08:11:05.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps]
+22-Feb-2020 08:11:05.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps] has finished in [37] ms
+22-Feb-2020 08:11:05.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager]
+22-Feb-2020 08:11:05.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager] has finished in [30] ms
+22-Feb-2020 08:11:05.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 08:11:05.890 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 08:11:05.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [590] ms
+22-Feb-2020 08:11:05.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples]
+22-Feb-2020 08:11:06.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples] has finished in [207] ms
+22-Feb-2020 08:11:06.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT]
+22-Feb-2020 08:11:06.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT] has finished in [16] ms
+22-Feb-2020 08:11:06.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager]
+22-Feb-2020 08:11:06.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager] has finished in [16] ms
+22-Feb-2020 08:11:06.137 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,218] milliseconds
+22-Feb-2020 08:11:06.143 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+22-Feb-2020 08:11:06.143 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:11:06.143 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 08:11:06.167 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:11:06.167 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:13:25.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+22-Feb-2020 08:13:25.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10-LTS
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2020 08:13:25.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:13:25.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:13:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 08:13:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 08:13:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 08:13:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bharathpantala/Desktop/DevOps/tomcat/conf/logging.properties
+22-Feb-2020 08:13:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 08:13:25.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 08:13:25.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 08:13:25.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 08:13:25.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 08:13:25.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:13:25.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:13:25.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bharathpantala/Desktop/DevOps/tomcat/temp
+22-Feb-2020 08:13:25.280 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bharathpantala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2020 08:13:25.567 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:13:25.599 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [535] milliseconds
+22-Feb-2020 08:13:25.649 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 08:13:25.650 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+22-Feb-2020 08:13:25.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs]
+22-Feb-2020 08:13:25.916 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs] has finished in [257] ms
+22-Feb-2020 08:13:25.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps]
+22-Feb-2020 08:13:25.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps] has finished in [46] ms
+22-Feb-2020 08:13:25.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager]
+22-Feb-2020 08:13:26.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager] has finished in [52] ms
+22-Feb-2020 08:13:26.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 08:13:26.680 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 08:13:26.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [667] ms
+22-Feb-2020 08:13:26.683 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples]
+22-Feb-2020 08:13:26.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples] has finished in [204] ms
+22-Feb-2020 08:13:26.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT]
+22-Feb-2020 08:13:26.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT] has finished in [16] ms
+22-Feb-2020 08:13:26.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager]
+22-Feb-2020 08:13:26.923 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager] has finished in [19] ms
+22-Feb-2020 08:13:26.927 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:13:26.934 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,335] milliseconds
+22-Feb-2020 08:13:31.546 INFO [http-nio-8080-exec-1] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+22-Feb-2020 08:14:29.967 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Feb-2020 08:14:29.967 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:14:29.976 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 08:14:30.003 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [App-Info-release] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Feb-2020 08:14:30.013 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:14:30.021 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:15:07.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+22-Feb-2020 08:15:07.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+22-Feb-2020 08:15:07.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+22-Feb-2020 08:15:07.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Feb-2020 08:15:07.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+22-Feb-2020 08:15:07.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Feb-2020 08:15:07.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.5.jdk/Contents/Home
+22-Feb-2020 08:15:07.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.5+10-LTS
+22-Feb-2020 08:15:07.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Feb-2020 08:15:07.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:15:07.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:15:07.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Feb-2020 08:15:07.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Feb-2020 08:15:07.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Feb-2020 08:15:07.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/bharathpantala/Desktop/DevOps/tomcat/conf/logging.properties
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/bharathpantala/Desktop/DevOps/tomcat
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/bharathpantala/Desktop/DevOps/tomcat/bin/../
+22-Feb-2020 08:15:07.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/bharathpantala/Desktop/DevOps/tomcat/temp
+22-Feb-2020 08:15:07.531 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/bharathpantala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Feb-2020 08:15:07.834 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:15:07.877 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [572] milliseconds
+22-Feb-2020 08:15:07.941 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Feb-2020 08:15:07.941 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+22-Feb-2020 08:15:07.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs]
+22-Feb-2020 08:15:08.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/docs] has finished in [279] ms
+22-Feb-2020 08:15:08.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps]
+22-Feb-2020 08:15:08.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/appProps] has finished in [39] ms
+22-Feb-2020 08:15:08.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager]
+22-Feb-2020 08:15:08.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/manager] has finished in [56] ms
+22-Feb-2020 08:15:08.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release]
+22-Feb-2020 08:15:08.908 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Feb-2020 08:15:08.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/App-Info-release] has finished in [584] ms
+22-Feb-2020 08:15:08.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples]
+22-Feb-2020 08:15:09.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/examples] has finished in [244] ms
+22-Feb-2020 08:15:09.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT]
+22-Feb-2020 08:15:09.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/ROOT] has finished in [21] ms
+22-Feb-2020 08:15:09.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager]
+22-Feb-2020 08:15:09.196 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/bharathpantala/Desktop/DevOps/tomcat/webapps/host-manager] has finished in [19] ms
+22-Feb-2020 08:15:09.201 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:15:09.209 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,331] milliseconds
+22-Feb-2020 08:15:13.723 INFO [http-nio-8080-exec-1] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+22-Feb-2020 08:15:27.827 INFO [http-nio-8080-exec-1] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+22-Feb-2020 08:15:37.710 INFO [http-nio-8080-exec-8] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: com.mysql.jdbc.Driver
+22-Feb-2020 08:19:10.135 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+22-Feb-2020 08:19:10.136 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:19:10.145 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+22-Feb-2020 08:19:10.176 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [App-Info-release] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+22-Feb-2020 08:19:10.190 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Feb-2020 08:19:10.192 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
