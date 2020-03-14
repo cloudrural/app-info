@@ -3,10 +3,8 @@ module="$1"
 propFile="$2"
 propDir="$3"
 
-CATALINA_HOME=${PWD}/../
 # ENV
-
-APP_HOME=${CATALINA_HOME}
+APP_HOME=${PWD}/../
 
 # replace $1 - installer variable name, $2 - env variable name, $3 - value from env, $4 - default value
 function replace() {
