@@ -1,12 +1,8 @@
 #!/bin/bash
 
-#source the setenv
-
-source setenv.sh
-
 #Script ENV
 
-APP_HOME=${CATALINA_HOME}
+APP_HOME=${PWD}/../
 
 function _usage() {
     propFile="$APP_HOME/webapps/appProps.list"
