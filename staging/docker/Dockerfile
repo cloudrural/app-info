@@ -10,6 +10,9 @@ RUN mkdir $APP_HOME
 
 COPY install/ $APP_HOME/
 
+RUN chmod  +x $APP_HOME/bin/*.sh && \
+    chmod  +x $APP_HOME/webapps/*.sh
+
 EXPOSE 8080
 
 WORKDIR $APP_HOME
