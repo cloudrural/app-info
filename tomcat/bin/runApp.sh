@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#Script ENV
-
-APP_HOME=${PWD}/../
-
 function _usage() {
     propFile="$APP_HOME/webapps/appProps.list"
 
