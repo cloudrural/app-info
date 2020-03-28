@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  app:
+    image: app:1.0 
+    ports:
+      - 80:8080
+    volumes:
+      - appinfo:/opt/app
+    networks:
+      - app
+    environment:
+      DB_HOST: mysql
+      DB_USER: root
+      DB_PWD: sharath10
+      DB_PORT: 3306
+      DB_NAME: appinfo
+
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.6
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql:/var/lib/mysql
+    networks:
+      - app
+
+    environment:
+      MYSQL_DATABASE: appinfo
+      MYSQL_ROOT_PASSWORD: sharath10
+    networks:
+      - app
+
+networks:
+  app:
+    driver: bridge
+
+volumes:
+  appinfo:
+  mysql:
+ 
