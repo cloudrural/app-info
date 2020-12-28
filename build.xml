@@ -6,6 +6,7 @@
     <property name="build.dir" location="target" />
     <property name="artifact.dir" location="install" />
 
+    
     <!-- Deletes the existing build, docs and dist directory-->
     <target name="clean">
         <delete dir="${artifact.dir}" />
