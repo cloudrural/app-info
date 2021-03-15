@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>App42 Sample Java-MySql Application</title>
+<title>App Info Page</title>
 <link href="css/style-User-Input-Form.css" rel="stylesheet"
 	type="text/css">
 <script type="text/javascript" src="js/jquery-1.6.4.js"></script>
