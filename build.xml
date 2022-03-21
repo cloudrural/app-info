@@ -17,6 +17,9 @@
         <mkdir dir="${artifact.dir}" />
     </target>
 
+    
+    
+    
     <target name="copy-artifacts" depends="makedir">
         <description>Copying the artifacts </description>
         <copy todir="${artifact.dir}">
